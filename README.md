@@ -2,7 +2,7 @@
 
 Link: https://www.udemy.com/share/1013hw3@utYWV9iMvH6ncvAr7guhQS8g8-Na53RY1emiRHCSutBGj0M4Rvy0Kg45rIHx3SrTyA==/
 
-Descrição: Este repositório contém o código desenvolvido durante o curso do instrutor Nélio Alves na Udemy. O projeto tem como objetivo consolidar o aprendizado em Java e Programação Orientada a Objetos (POO), cobrindo desde lógica básica até tópicos avançados como herança e polimorfismo. A estrutura está dividida entre conteúdos originais recuperados, revisões dos conteúdos do curso até a perda parcial de dados. E, por fim, as outras aulas feitas após a revisão.
+Descrição: Este repositório contém o código desenvolvido durante o curso do instrutor Nélio Alves na Udemy. O projeto tem como objetivo consolidar o aprendizado em Java e Programação Orientada a Objetos (POO), cobrindo desde lógica básica até tópicos avançados como herança e polimorfismo.
 
 Pré-requisitos:
 
