@@ -1,0 +1,42 @@
+Tópico da seção 14 - Tratamento de Exceções
+
+->	Uma exceção é qualquer condição de erro ou comportamento
+	inesperado encontrado por um programa em execução.
+	
+->	Em java, uma exceção é um objeto herdado da classe:
+		- java.lang.Exception -> O compilador obriga a tratar ou propagar
+		- java.lang.RuntimeException -> O compilador não obriga a tratar ou propagar
+		
+
+Hierarquia de exceções java
+
+A classe "Throwable" é a classe abstrata de todos os erros.
+
+Ela é dividida em "Error" e "Exception", a classe Error representa
+problemas que o programador não deve tratar. São problemas externos à
+programação, como falta de memória ou erro no virtual machine do java.
+
+A classe Exception são aqueles erros que o programador pode tratar.
+Como IOException, que envolve entra e saída de dados no programa,
+talvez você pediu para o software procurar um arquivo que não
+existe.
+
+Outra classe que pertence as "Exceptions" é a RuntimeException,
+Que ocorrem durante a execução do programa, por exemplo, se o
+programador quiser acessar uma posição inexistente no array,
+isso causa a "IndexOutOfBoundsException". Se o programador quiser
+usar uma variável vazia, isso causa "NullPointerException".
+
+Por que exceções?
+
+- 	O modelo de tratamento de exceções permite que erros sejam tratados
+	de forma consistente e flexível, usando boas práticas.
+	
+-	Vantagens:
+		- Delega a lógica do erro para a classe responsável por conhecer
+		as regras que podem ocasionar o erro.
+		
+		- Trata de forma organizada (inclusive hierárquica) exceção de 
+		tipos diferentes.
+		
+		- A exceção pode carregar dados quaisquer
